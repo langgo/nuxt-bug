@@ -29,7 +29,7 @@ export default {
       ]
     }
   },
-  beforeMount () {
+  created () {
     if (this.row.length > 0) {
       this.hoverItem(this.row[0])
     }
